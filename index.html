@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stickeyNots</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="containerOne">
+        <div class="input animate__animated animate__bounceIn">
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="11"
+            placeholder="// Write a note here"
+          ></textarea>
+          <div class="ctrl">
+            <input type="color" value="#90EE90" />
+          </div>
+        </div>
+        <div class="btn animate__animated animate__bounceIn">
+          <button id="Btn">Add Note</button>
+        </div>
+      </div>
+      <div class="containerTwo">
+        <h1>Your Notes</h1>
+        <div class="para"></div>
+        <p class="pTag">You have not added a note yet.</p>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
