@@ -67,6 +67,7 @@ body {
 
 button:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 textarea {
@@ -134,6 +135,7 @@ textarea {
   font-size: 17px;
   color: red;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .pTag {
